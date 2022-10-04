@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testingMobile": "npx cypress run --spec cypress/integration/envTask.js --config userAgent=mobile",
+    "runtest":"npm run testingMobile --"
   },
   "keywords": [],
   "author": "",
