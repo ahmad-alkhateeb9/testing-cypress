@@ -1,0 +1,11 @@
+{
+    "integrationFolder": "cypress/integration",
+    "fixturesFolder": "cypress/fixtures",
+    "pluginsFile": "cypress/plugins",
+    "supportFile": "cypress/support",
+    "env": 
+    {
+        "firstProductName": "Amazon Basics Dissolvable ",
+        "secondProductName": "toothbrush"
+    }
+}
